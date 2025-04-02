@@ -47,7 +47,7 @@ for(let counter= 0; counter< reviewers.length; counter++)
       {          
             reviewCode = "<table class = 'prime'>";
       }
-      else if (reviewType == "N")
+      else if (reviewType[counter] == "N")
       {
             reviewCode= "<table class = 'prime'>";
       }
